@@ -1,148 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toss Queen Maya - Official Channel</title>
-    
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome Icons CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Meta Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._q=[];n.push=default;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '972288322231443');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=972288322231443&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>©TOSS QUEEN MAYA™(2019)</title>
 
-    <!-- Custom CSS Styles -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._q=[];n.push=default;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '972288322231443');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=972288322231443&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
 
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #050505;
-            background-image: radial-gradient(circle at center, #1a1a1a 0%, #050505 100%);
-        }
+  <!-- Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-        /* Gold Gradient Text */
-        .gold-text {
-            background: linear-gradient(135deg, #FFE57F 0%, #FFC107 50%, #FF8F00 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-        /* Metallic Gold Border Glow */
-        .gold-border-glow {
-            border: 2px solid #FFC107;
-            box-shadow: 0 0 20px rgba(255, 193, 7, 0.35), inset 0 0 10px rgba(255, 193, 7, 0.2);
-        }
+    body {
+      background-color: #0b0b0b;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+    }
 
-        /* Card Gold Border */
-        .card-gold-border {
-            border: 1.5px solid rgba(255, 193, 7, 0.3);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 193, 7, 0.1);
-        }
+    .container {
+      width: 100%;
+      max-width: 440px;
+      background: #111111;
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      border-radius: 24px;
+      padding: 32px 20px;
+      text-align: center;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8), 0 0 20px rgba(212, 175, 55, 0.05);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-        /* Pulse animation for CTA button */
-        @keyframes subtlePulse {
-            0% { transform: scale(1); box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); }
-            50% { transform: scale(1.02); box-shadow: 0 0 25px rgba(255, 193, 7, 0.8); }
-            100% { transform: scale(1); box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); }
-        }
+    /* Circle Profile Image */
+    .profile-container {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      padding: 4px;
+      background: linear-gradient(135deg, #ffd700, #b8860b, #ffd700);
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+      margin-bottom: 20px;
+    }
 
-        .cta-btn {
-            animation: subtlePulse 2s infinite ease-in-out;
-        }
-    </style>
+    .profile-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Titles */
+    .title {
+      font-size: 26px;
+      font-weight: 900;
+      color: #ffcc00;
+      letter-spacing: 0.5px;
+      line-height: 1.2;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 10px rgba(255, 204, 0, 0.2);
+    }
+
+    .subtitle {
+      color: #cccccc;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .divider {
+      width: 50px;
+      height: 2px;
+      background: rgba(255, 204, 0, 0.4);
+      margin: 0 auto 20px auto;
+      border-radius: 2px;
+    }
+
+    /* Timer Pill */
+    .timer-badge {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50px;
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .timer-badge span.seconds {
+      color: #ffcc00;
+      font-weight: 800;
+      font-size: 16px;
+    }
+
+    /* Message Box */
+    .info-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 20px 16px;
+      margin-bottom: 24px;
+      width: 100%;
+    }
+
+    .info-box p {
+      color: #dddddd;
+      font-size: 13.5px;
+      line-height: 1.6;
+      font-weight: 500;
+    }
+
+    /* Telegram CTA Button */
+    .telegram-btn {
+      width: 100%;
+      background: #ffffff;
+      color: #000000;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 15px;
+      padding: 16px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .telegram-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+    }
+
+    .telegram-icon-circle {
+      background: #0088cc;
+      color: #ffffff;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      font-size: 10.5px;
+      color: #777777;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+  </style>
 </head>
-<body class="min-h-screen text-gray-200 flex items-center justify-center p-4">
+<body>
 
-    <!-- Main Outer Container -->
-    <main class="w-full max-w-md bg-[#121210]/90 backdrop-blur-md rounded-3xl p-6 sm:p-8 card-gold-border text-center flex flex-col items-center my-auto">
-        
-        <!-- Profile Picture Container -->
-        <div class="relative mb-6">
-            <div class="w-28 h-28 sm:w-32 sm:h-32 rounded-full gold-border-glow overflow-hidden p-1 bg-black">
-                <!-- Replace 'profile.jpg' with your image file name or path -->
-                <img id="profile-img" src="profile.jpg" alt="Toss Queen Maya" class="w-full h-full object-cover rounded-full" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=500&auto=format&fit=crop';">
-            </div>
-        </div>
+  <div class="container">
+    <!-- Circle Profile Image -->
+    <div class="profile-container">
+      <img src="WhatsApp%20Image%202026-09-18%20at%2015.14.59.jpeg" alt="Toss Queen Maya" class="profile-img">
+    </div>
 
-        <!-- Title Header -->
-        <h1 class="text-2xl sm:text-3xl font-extrabold gold-text tracking-wide mb-2 uppercase">
-            ©TOSS QUEEN MAYA™(2019)
-        </h1>
+    <!-- Main Title -->
+    <h1 class="title">©TOSS QUEEN MAYA™(2019)</h1>
 
-        <!-- Subtitle -->
-        <p class="text-xs sm:text-sm font-semibold tracking-widest text-gray-400 mb-6 uppercase">
-            TOSS • MATCH • PREDICTION • SESSION
-        </p>
+    <!-- Subtitle -->
+    <div class="subtitle">TOSS • MATCH • PREDICTION • SESSION</div>
 
-        <!-- Divider line -->
-        <div class="w-20 h-[2px] bg-amber-500/40 rounded-full mb-6"></div>
+    <div class="divider"></div>
 
-        <!-- Dynamic Countdown Widget -->
-        <div class="flex items-center justify-center space-x-2 text-sm sm:text-base font-medium text-gray-300 mb-6 bg-black/40 px-4 py-2 rounded-full border border-amber-500/20">
-            <span class="text-lg">⏳</span>
-            <span>Limited Access</span>
-            <span id="countdown" class="text-xl font-bold text-amber-400 min-w-[20px]">15</span>
-            <span>Seconds</span>
-        </div>
+    <!-- Live Timer Badge -->
+    <div class="timer-badge">
+      ⏳ Limited Access <span class="seconds" id="countdown">15</span> Seconds
+    </div>
 
-        <!-- Content Card -->
-        <div class="w-full bg-[#1c1c18]/80 border border-gray-800 rounded-2xl p-5 mb-8 shadow-inner">
-            <p class="text-sm sm:text-base text-gray-300 leading-relaxed font-normal">
-                Get structured match insights, performance trends, and data-backed analysis for upcoming cricket & sports matches.
-            </p>
-        </div>
+    <!-- Information Box -->
+    <div class="info-box">
+      <p>Get structured match insights, performance trends, and data-backed analysis for upcoming cricket & sports matches.</p>
+    </div>
 
-        <!-- Telegram CTA Button -->
-        <a href="https://t.me/+A02Y_QRiW4FlZDc1" target="_blank" rel="noopener noreferrer" class="w-full">
-            <button class="cta-btn w-full bg-white text-black font-extrabold text-base sm:text-lg py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all transform hover:bg-amber-100 active:scale-95 border-2 border-amber-400">
-                <span class="w-8 h-8 rounded-full bg-[#0088cc] flex items-center justify-center text-white text-lg">
-                    <i class="fa-brands font-semibold fa-telegram"></i>
-                </span>
-                <span class="tracking-wide">JOIN MY TELEGRAM CHANNEL</span>
-            </button>
-        </a>
+    <!-- Telegram Button -->
+    <a href="https://t.me/+A02Y_QRiW4FlZDc1" target="_blank" class="telegram-btn">
+      <div class="telegram-icon-circle">
+        <i class="fa-solid fa-paper-plane"></i>
+      </div>
+      JOIN MY TELEGRAM CHANNEL
+    </a>
 
-        <!-- Footer Disclaimer -->
-        <footer class="mt-8 text-xs text-gray-500 leading-relaxed max-w-xs px-2">
-            This platform is for informational purposes only. We do not promote any betting or gambling activity.
-        </footer>
+    <!-- Footer Disclaimer -->
+    <div class="disclaimer">
+      This platform is for informational purposes only. We do not promote any betting or gambling activity.
+    </div>
+  </div>
 
-    </main>
+  <script>
+    // Live Countdown Timer
+    let seconds = 15;
+    const timerElement = document.getElementById('countdown');
+    
+    const interval = setInterval(() => {
+      seconds--;
+      if (seconds >= 0) {
+        timerElement.textContent = seconds;
+      } else {
+        seconds = 15; // Reset to loop continuous urgency
+      }
+    }, 1000);
+  </script>
 
-    <!-- JavaScript for Dynamic Timer -->
-    <script>
-        // Dynamic countdown timer script
-        let timeLeft = 15;
-        const countdownEl = document.getElementById('countdown');
-
-        const timer = setInterval(() => {
-            timeLeft--;
-            if (timeLeft >= 0) {
-                countdownEl.textContent = timeLeft;
-            } else {
-                // Keep showing 0 or reset if needed
-                countdownEl.textContent = "0";
-                clearInterval(timer);
-            }
-        }, 1000);
-    </script>
 </body>
 </html>
